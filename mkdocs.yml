@@ -370,20 +370,20 @@ nav:
       - Help: nopCommerceAdminAIChatBot/help.md
 
   - nopAccelerate AI Analytics:
-      - Overview: AIAnalytics/index.md
-      - Features: AIAnalytics/features.md
+      - Overview: nopCommerceAIAnalytics/index.md
+      - Features: nopCommerceAIAnalytics/features.md
       - Version History:
-          - Overview: AIAnalytics/version-history.md
-          - Version 1.00: AIAnalytics/1.00.md
+          - Overview: nopCommerceAIAnalytics/version-history.md
+          - Version 1.00: nopCommerceAIAnalytics/1.00.md
       - Setup & Licensing:
-          - Installation Guide: AIAnalytics/installation.md
-          - License & Activation: AIAnalytics/licence.md
+          - Installation Guide: nopCommerceAIAnalytics/installation.md
+          - License & Activation: nopCommerceAIAnalytics/licence.md
       - Configuration:
-          - Settings: AIAnalytics/settings.md
-      - Dashboard: AIAnalytics/dashboard.md
-      - Ask AI: AIAnalytics/ask-ai.md
-      - Scenarios of Use: AIAnalytics/scenarios-of-use.md
-      - Help: AIAnalytics/help.md
+          - Settings: nopCommerceAIAnalytics/settings.md
+      - Dashboard: nopCommerceAIAnalytics/dashboard.md
+      - Ask AI: nopCommerceAIAnalytics/ask-ai.md
+      - Scenarios of Use: nopCommerceAIAnalytics/scenarios-of-use.md
+      - Help: nopCommerceAIAnalytics/help.md
 
   - Universal One Page Checkout:
       - Overview: OnePageCheckout/index.md

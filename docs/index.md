@@ -4,7 +4,7 @@
 
 - [nopCommerce Admin AI Chatbot](nopCommerceAdminAIChatBot/)
 
-- [NopAccelerate AI Analytics](AIAnalytics/)
+- [nopCommerce AI Analytics](nopCommerceAIAnalytics/)
 
 - [Display Reward Point](displayReward/)
 
