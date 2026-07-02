@@ -5,7 +5,7 @@
 
 **Step 1** : Go to **Administration → Configuration → Local Plugins**.
 
-**Step 2** : Upload the **NopBotAdminAI plugin** zip file using the **"Upload plugin or theme"** button.
+**Step 2** : Upload the **nopCommerce Admin AI ChatBot plugin** zip file using the **"Upload plugin or theme"** button.
 
 **Step 3** : Restart the application.
 

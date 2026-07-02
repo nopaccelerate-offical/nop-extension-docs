@@ -2,7 +2,7 @@
 
 The Ask AI page provides a conversational chat interface where you can ask plain-English questions about your store's data and receive instant AI-generated answers.
 
-Access it from **NopBot AI Analytics → Ask AI** in the admin sidebar, or via the **Ask AI** button on the Dashboard.
+Access it from **nopCommerce AI Analytics → Ask AI** in the admin sidebar, or via the **Ask AI** button on the Dashboard.
 
 ![Ask AI](../assets/img/AIAnalytics_ask-ai.png){ .img-border }
 

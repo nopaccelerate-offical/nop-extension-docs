@@ -1,6 +1,6 @@
 # Configuration
 
-The **NopBot Admin AI Configuration** page controls the entire plugin. It is divided into three sections: First-time Setup, General Settings, Floating Bot, and OpenRouter Configuration.
+The **nopCommerce Admin AI ChatBot Configuration** page controls the entire plugin. It is divided into three sections: First-time Setup, General Settings, Floating Bot, and OpenRouter Configuration.
 
 ## First-Time Setup — Knowledge Base (required)
 

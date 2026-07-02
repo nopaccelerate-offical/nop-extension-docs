@@ -1,6 +1,6 @@
 # Dashboard
 
-The Dashboard is the main analytics view, accessible from **NopBot AI Analytics → Dashboard** in the admin sidebar.
+The Dashboard is the main analytics view, accessible from **nopCommerce AI Analytics → Dashboard** in the admin sidebar.
 
 ![Analytics Dashboard](../assets/img/AIAnalytics_dashboard.png){ .img-border }
 

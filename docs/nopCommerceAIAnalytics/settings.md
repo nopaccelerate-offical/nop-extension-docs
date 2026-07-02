@@ -1,6 +1,6 @@
 # Settings
 
-The Settings page is accessible from **NopBot AI Analytics → Settings** in the admin sidebar. All plugin configuration is managed here.
+The Settings page is accessible from **nopCommerce AI Analytics → Settings** in the admin sidebar. All plugin configuration is managed here.
 
 ![Settings](../assets/img/AIAnalytics_settings.png){ .img-border }
 
