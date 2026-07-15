@@ -369,19 +369,19 @@ nav:
           - AI Processing Logs: nopCommerceAdminAIChatBot/ai-processing-logs.md
       - Help: nopCommerceAdminAIChatBot/help.md
 
-  - nopAccelerate AI Analytics:
+  - nopCommerce AI Analytics:
       - Overview: nopCommerceAIAnalytics/index.md
       - Features: nopCommerceAIAnalytics/features.md
       - Version History:
           - Overview: nopCommerceAIAnalytics/version-history.md
+          - Version 2.0.1.0: nopCommerceAIAnalytics/2.0.1.0.md
           - Version 1.00: nopCommerceAIAnalytics/1.00.md
       - Setup & Licensing:
           - Installation Guide: nopCommerceAIAnalytics/installation.md
           - License & Activation: nopCommerceAIAnalytics/licence.md
-      - Configuration:
-          - Settings: nopCommerceAIAnalytics/settings.md
-      - Dashboard: nopCommerceAIAnalytics/dashboard.md
-      - Ask AI: nopCommerceAIAnalytics/ask-ai.md
+      - Configuration: nopCommerceAIAnalytics/settings.md
+      - Analytics Dashboard: nopCommerceAIAnalytics/dashboard.md
+      - AI Analytics Workspace: nopCommerceAIAnalytics/ask-ai.md
       - Scenarios of Use: nopCommerceAIAnalytics/scenarios-of-use.md
       - Help: nopCommerceAIAnalytics/help.md
 

@@ -1,66 +1,73 @@
-# Ask AI
+# AI Analytics Workspace
 
-The Ask AI page provides a conversational chat interface where you can ask plain-English questions about your store's data and receive instant AI-generated answers.
+The AI Analytics Workspace is the conversational analytics screen where you can ask business questions in plain English and get instant answers from your live nopCommerce store data.
 
-Access it from **nopCommerce AI Analytics → Ask AI** in the admin sidebar, or via the **Ask AI** button on the Dashboard.
+Access it from **AI Analytics → AI Analytics Workspace** in the admin sidebar.
 
-![Ask AI](../assets/img/AIAnalytics_ask-ai.png){ .img-border }
+![nopCommerce admin sidebar showing Configuration, Analytics Dashboard, and AI Analytics Workspace](../assets/img/AIAnalytics_sidebar-nav.png){ .img-border }
 
----
-
-## Filter Bar
-
-The same date range and store filters from the Dashboard are available here. The AI uses these filters when querying your store data — for example, asking "What was my total revenue?" will return revenue for the selected period only.
-
-| **Control**   | **Description**                                                  |
-|---------------|------------------------------------------------------------------|
-| **Date From** | Start of the data period the AI will use to answer questions.   |
-| **Date To**   | End of the data period.                                          |
-| **Store**     | Filter to a specific store or use All Stores.                   |
-| **Clear Chat**| Deletes the full conversation history from the database permanently. A confirmation prompt appears before deletion. |
+![AI Analytics Workspace](../assets/img/AIAnalytics_workspace.png){ .img-border }
 
 ---
 
-## Suggested Prompts
+## Ask Your Store
 
-A row of prompt chips appears below the filter bar to help you get started:
+Type your question in plain English in the input field at the bottom of the page (e.g. *"What was my revenue last month?"*), then click **Ask analytics** or press **Enter**.
 
-- What was my total revenue this month?
-- Which 5 products generated the most revenue?
-- How many new customers placed orders?
-- What is the average order value?
-- Show daily revenue as a table
+The AI confirms details with you if your question is ambiguous, then queries live store data on a **read-only** basis — it can never modify orders, customers, or any other store record. Charts are only generated when you explicitly ask for one; plain questions return a text summary and, where relevant, a data table.
 
-Click any chip to populate the input field, then press **Enter** or the send button to submit.
+A typical answer includes:
 
----
+- A short written summary of the finding
+- **Key Numbers** — the headline figures behind the answer
+- A **Data** table with the underlying rows
+- A **Chart** rendering of the data, when requested
 
-## Chat Interface
-
-Type your question in the input field at the bottom of the page. Press **Enter** to send, or **Shift+Enter** to add a new line within your question.
-
-The AI receives your store's aggregated metrics as context (total revenue, order count, top products, daily revenue breakdown) and generates a relevant answer. If the answer contains tabular data, it is rendered as a formatted table within the chat bubble.
+Click **Clear chat** to remove the current conversation from view.
 
 ---
 
-## Chat History Persistence
+## Saved Prompts
 
-Your conversation is automatically saved to the database after each exchange. When you return to the Ask AI page — even after a page refresh or closing the browser — your previous messages are restored and displayed in the chat panel.
+The **Saved Prompts** panel on the right lists recurring reports and commonly used business questions so your team can re-run them in a single click — for example:
 
-To permanently delete your conversation history, click **Clear Chat**. This removes all records from the database for your admin account.
+- *Revenue last 30 days* — "What was my total revenue in the last 30 days?"
+- *Top selling products* — "Which products had the highest revenue last month?"
+- *New vs returning customers* — compares order volume between new and returning customers.
+
+Save any question you ask frequently so it's always one click away.
+
+---
+
+## Recent Prompt Activity
+
+The **Recent Prompt Activity** panel shows a running log of every question asked, with a timestamp and a status:
+
+| **Status**             | **Meaning**                                                                 |
+|--------------------------|----------------------------------------------------------------------------------|
+| **Success**              | The AI answered the question using store data.                                  |
+| **Needs Clarification**  | The question was ambiguous and the AI asked a follow-up before answering.       |
+
+This activity log helps admins and managers track how the workspace is being used and audit past requests.
 
 ---
 
 ## Example Questions
 
-| **Question**                                    | **What the AI returns**                                  |
-|-------------------------------------------------|----------------------------------------------------------|
-| What was my total revenue this month?           | The total revenue figure for the selected date range.    |
-| Which 5 products generated the most revenue?    | A table with product names and revenue values.           |
-| How many new customers placed orders?           | The unique customer count for the period.                |
-| What is the average order value?                | The AOV calculated from your filtered orders.            |
-| Show daily revenue as a table                   | A table with one row per day showing the revenue amount. |
+| **Question**                                    | **What the AI returns**                                           |
+|----------------------------------------------------|------------------------------------------------------------------------|
+| What was my total revenue this month?               | The total revenue figure for the selected period.                     |
+| Which 5 products generated the most revenue?        | A table with product names and revenue values.                        |
+| How many people signed up this week?                | The new customer registration count for the period.                   |
+| Which payment method do customers prefer?           | A table and/or chart comparing order counts per payment method.       |
+| Show revenue by region                              | A table with one row per region showing orders and revenue.           |
 
-> **Note:** The AI can only answer questions based on the store data provided in its context (orders, revenue, customers, products). It cannot access product descriptions, inventory levels, or customer personal details.
+> **Note:** The AI only answers questions using approved nopCommerce store data (orders, customers, products, categories, carts, discounts, returns, and addresses). It cannot access external marketing, website traffic, or third-party CRM/ERP data — see [Data Scope](settings.md#data-scope).
+
+---
+
+## Exporting Answers
+
+Use the export controls in the workspace to download an answer as **CSV** or **PDF**, ready to share with finance, operations, or management stakeholders.
 
 [← Previous](dashboard.md) | [Next →](scenarios-of-use.md)

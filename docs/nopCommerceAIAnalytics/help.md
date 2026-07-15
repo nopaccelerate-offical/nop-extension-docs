@@ -12,18 +12,18 @@ If you face any issues, you can:
 
 ## Common Issues
 
-### Ask AI shows "An unexpected error occurred"
+### AI Analytics Workspace shows "An unexpected error occurred"
 
-- Check that **Allow External Data Transmission** is enabled in Settings.
-- Verify your API key is correct using the **Test Connection** button.
-- Ensure your selected **Provider** matches the API key format (e.g. OpenRouter keys start with `sk-or-v1-`).
+- Check your **AI provider** and **AI API key** in [Configuration](settings.md).
+- Ensure your selected **AI provider** matches the API key format (e.g. OpenRouter keys start with `sk-or-v1-`).
+- Confirm the **AI model** name is spelled correctly for the selected provider.
 
-### Dashboard charts are empty
+### Dashboard cards or charts are empty
 
-- Make sure at least one non-cancelled order exists within the selected date range.
-- Click **Refresh** after changing the date range.
+- Make sure at least one order exists within the selected date range.
+- Click **Search** after changing the date range or quick range.
 
-### Locale resource keys appear instead of labels (e.g. `Plugins.Widgets.AIAnalytics.Settings.IsEnabled`)
+### Locale resource keys appear instead of labels (e.g. `Plugins.Widgets.AIAnalytics.Configuration.IsEnabled`)
 
 - This means the locale strings were not installed. Go to **Admin → Local Plugins**, click **Uninstall** on the plugin, then **Install** again to re-run the installation routine.
 
